@@ -19,13 +19,13 @@
   "dependencies": {
     "@prisma/adapter-better-sqlite3": "^7.10.1",
     "@prisma/client": "^7",
-    "better-sqlite3": "^12.11.1",
+    "better-sqlite3": "^13",
     "discord.js": "^14",
     "dotenv": "^18",
     "ts-node": "^10"
   },
   "devDependencies": {
-    "@types/node": "^24.19.2",
+    "@types/node": "^24",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
     "eslint": "^10",
@@ -37,9 +37,9 @@
     "prisma": "^7"
   },
   "allowScripts": {
+    "better-sqlite3@13.0.3": true,
     "@prisma/engines@7.10.1": true,
     "prisma@7.10.1": true,
-    "fsevents": false,
-    "better-sqlite3@12.11.1": true
+    "fsevents": false
   }
 }
